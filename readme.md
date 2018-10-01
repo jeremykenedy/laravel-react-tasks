@@ -1,4 +1,7 @@
 ## Laravel React Tasks
+
+[![Build Status](https://travis-ci.com/jeremykenedy/laravel-react-tasks.svg?branch=master)](https://travis-ci.com/jeremykenedy/laravel-react-tasks)
+[![StyleCI](https://github.styleci.io/repos/151041710/shield?branch=master)](https://github.styleci.io/repos/151041710)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 #### Table of contents
