@@ -14,7 +14,7 @@
 - [License](#license)
 
 ### About
-Simple task list example using Laravel 5.7 and ReactJS UI.
+Simple create/read/update task list example using Laravel 5.7 API routes and ReactJS UI.
 
 ### Features
 | Laravel React Tasks Features |
