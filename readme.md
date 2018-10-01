@@ -10,7 +10,6 @@
 - [Features](#features)
 - [Installation Instructions](#installation-instructions)
 - [Routes](#routes)
-- [Screenshots](#screenshots)
 - [File Tree](#file-tree)
 - [License](#license)
 
@@ -49,9 +48,6 @@ Simple task list example using Laravel 5.7 and ReactJS UI.
 |        | GET|HEAD | {path?}                |      | Illuminate\Routing\ViewController                      | web        |
 +--------+----------+------------------------+------+--------------------------------------------------------+------------+
 ```
-
-### Screenshots
-...
 
 ### File Tree
 
