@@ -10,7 +10,8 @@ class TaskController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
+     *
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -28,7 +29,8 @@ class TaskController extends Controller
     /**
      * Mark task as complete.
      *
-     * @param  Task  $task
+     * @param Task $task
+     *
      * @return \Illuminate\Http\Response
      */
     public function markAsCompleted(Task $task)

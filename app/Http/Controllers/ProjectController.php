@@ -14,10 +14,10 @@ class ProjectController extends Controller
      */
     public function index()
     {
-       $projects = Project::where('is_completed', false)
+        $projects = Project::where('is_completed', false)
                             ->orderBy('created_at', 'desc')
                             ->withCount(['tasks' => function ($query) {
-                              $query->where('is_completed', false);
+                                $query->where('is_completed', false);
                             }])
                             ->get();
 
@@ -27,7 +27,8 @@ class ProjectController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
+     *
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -48,7 +49,8 @@ class ProjectController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
+     *
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -63,7 +65,8 @@ class ProjectController extends Controller
     /**
      * Mark project as complete.
      *
-     * @param  Project  $project
+     * @param Project $project
+     *
      * @return \Illuminate\Http\Response
      */
     public function markAsCompleted(Project $project)

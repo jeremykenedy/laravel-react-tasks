@@ -36,13 +36,13 @@ class Project extends Model
      */
     protected $fillable = [
         'name',
-        'description'
+        'description',
     ];
 
     /**
-     * Typcast for protection
+     * Typcast for protection.
      *
-     * @var        array
+     * @var array
      */
     protected $casts = [
         'name'          => 'string',
@@ -56,11 +56,11 @@ class Project extends Model
      */
     protected $dates = [
         'created_at',
-        'updated_at'
+        'updated_at',
     ];
 
     /**
-     * A Project has Many Tasks
+     * A Project has Many Tasks.
      *
      * @return collection
      */
@@ -68,5 +68,4 @@ class Project extends Model
     {
         return $this->hasMany(Task::class);
     }
-
 }
