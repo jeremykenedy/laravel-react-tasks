@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/jeremykenedy/laravel-react-tasks.svg?branch=master)](https://travis-ci.com/jeremykenedy/laravel-react-tasks)
 [![StyleCI](https://github.styleci.io/repos/151041710/shield?branch=master)](https://github.styleci.io/repos/151041710)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jeremykenedy/laravel-react-tasks/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jeremykenedy/laravel-react-tasks/?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 #### Table of contents
