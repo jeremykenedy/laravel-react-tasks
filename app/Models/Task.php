@@ -36,13 +36,13 @@ class Task extends Model
      */
     protected $fillable = [
         'title',
-        'project_id'
+        'project_id',
     ];
 
     /**
-     * Typcast for protection
+     * Typcast for protection.
      *
-     * @var        array
+     * @var array
      */
     protected $casts = [
         'title'         => 'string',
@@ -56,6 +56,6 @@ class Task extends Model
      */
     protected $dates = [
         'created_at',
-        'updated_at'
+        'updated_at',
     ];
 }
