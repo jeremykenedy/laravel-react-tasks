@@ -21,4 +21,3 @@ before_script:
   - sudo chmod -R ug+rwx storage bootstrap/cache
   - yarn install
   - yarn run dev
-  - php artisan serve
