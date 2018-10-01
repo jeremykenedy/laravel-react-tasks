@@ -15,5 +15,4 @@
 //     return view('welcome');
 // });
 
-
 Route::view('/{path?}', 'app');
